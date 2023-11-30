@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Healthcare.WebService", "Healthcare.WebService", "{23CB91D7-7A2A-40E2-B498-0AE21F1B5041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Healthcare.Web", "Healthcare.Web", "{83E7FF77-7655-45D8-961A-278C0D25D0A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "GaHealthcareNurses.WebService\Contracts\Contracts.csproj", "{1776FACD-6FF5-4101-A647-69B61D3D01F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthcare.WebService", "GaHealthcareNurses.WebService\Server\Healthcare.WebService.csproj", "{93F0535D-542D-4F25-94D6-048A7080D1A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "GaHealthcareNurses.WebService\LoggerService\LoggerService.csproj", "{9F37CB7B-54FB-414E-B826-724FDB87BFBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "GaHealthcareNurses.WebService\Repository\Repository.csproj", "{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "GaHealthcareNurses.WebService\Services\Services.csproj", "{9210B615-5D88-4202-9442-2720E4950E4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GaHealthcareNurses.Client", "GaHealthcareNurses.Web\Client\GaHealthcareNurses.Client\GaHealthcareNurses.Client.csproj", "{B12268AA-2217-4B92-8F1F-B3B3215B0795}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthcare.Shared", "GaHealthcareNurses.WebService\Shared\Healthcare.Shared.csproj", "{57C43B86-E760-4A2A-A674-FC3897617447}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthcare.Entity", "GaHealthcareNurses.WebService\GaHealthcareNurses.Entity\Healthcare.Entity.csproj", "{685F7D38-6397-4AB9-8187-8AA32E9A8BCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthcare.DbMigration", "GaHealthcareNurses.WebService\GaHealthcareNurses.DbMigration\Healthcare.DbMigration.csproj", "{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1776FACD-6FF5-4101-A647-69B61D3D01F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1776FACD-6FF5-4101-A647-69B61D3D01F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1776FACD-6FF5-4101-A647-69B61D3D01F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1776FACD-6FF5-4101-A647-69B61D3D01F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F0535D-542D-4F25-94D6-048A7080D1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F0535D-542D-4F25-94D6-048A7080D1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F0535D-542D-4F25-94D6-048A7080D1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F0535D-542D-4F25-94D6-048A7080D1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F37CB7B-54FB-414E-B826-724FDB87BFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F37CB7B-54FB-414E-B826-724FDB87BFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F37CB7B-54FB-414E-B826-724FDB87BFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F37CB7B-54FB-414E-B826-724FDB87BFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9210B615-5D88-4202-9442-2720E4950E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9210B615-5D88-4202-9442-2720E4950E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9210B615-5D88-4202-9442-2720E4950E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9210B615-5D88-4202-9442-2720E4950E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12268AA-2217-4B92-8F1F-B3B3215B0795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12268AA-2217-4B92-8F1F-B3B3215B0795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12268AA-2217-4B92-8F1F-B3B3215B0795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12268AA-2217-4B92-8F1F-B3B3215B0795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C43B86-E760-4A2A-A674-FC3897617447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C43B86-E760-4A2A-A674-FC3897617447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C43B86-E760-4A2A-A674-FC3897617447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C43B86-E760-4A2A-A674-FC3897617447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685F7D38-6397-4AB9-8187-8AA32E9A8BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685F7D38-6397-4AB9-8187-8AA32E9A8BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685F7D38-6397-4AB9-8187-8AA32E9A8BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685F7D38-6397-4AB9-8187-8AA32E9A8BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1776FACD-6FF5-4101-A647-69B61D3D01F8} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{93F0535D-542D-4F25-94D6-048A7080D1A3} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{9F37CB7B-54FB-414E-B826-724FDB87BFBE} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{921A6D15-4E17-4B11-BD22-3CE3FD5A61A9} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{9210B615-5D88-4202-9442-2720E4950E4E} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{B12268AA-2217-4B92-8F1F-B3B3215B0795} = {83E7FF77-7655-45D8-961A-278C0D25D0A2}
+		{57C43B86-E760-4A2A-A674-FC3897617447} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{685F7D38-6397-4AB9-8187-8AA32E9A8BCD} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+		{5F4F64CD-2896-4097-AC6A-AF19BA8CDF5B} = {23CB91D7-7A2A-40E2-B498-0AE21F1B5041}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC0221F4-4F0C-46D9-9ECD-919E8FC5EE2E}
+	EndGlobalSection
+EndGlobal
